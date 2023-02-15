@@ -1,5 +1,5 @@
 // created array of boxes from html box div
-let boxes = Array.from(document.getElementsByClassName("box"));
+const boxes = Array.from(document.getElementsByClassName("box"));
 // created empty array of 9 length of checking empty or fill position in boxes
 let spaces = Array(9).fill(null);
 const playerDetails = {
